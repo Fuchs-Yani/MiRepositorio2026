@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego de Preguntas</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <!-- Pantalla inicial -->
+  <div id="inicio">
+    <h1>Juego de Trivia</h1>
+    <button id="btnComenzar">Comenzar</button>
+  </div>
+
+  <!-- Paso 1: elegir dificultad (oculto al inicio) -->
+  <div id="dificultades" style="display:none;">
+    <h3>Selecciona dificultad</h3>
+    <button class="btnDif" data-dif="facil">Fácil</button>
+    <button class="btnDif" data-dif="medio">Medio</button>
+    <button class="btnDif" data-dif="dificil">Difícil</button>
+  </div>
+
+  <!-- Paso 2: categorías (oculto al inicio) -->
+  <div id="categorias" style="display:none;">
+    <h3>Selecciona categoría</h3>
+    <button id="btnCat1">Historia</button>
+    <button id="btnCat2">Geografía</button>
+    <button id="btnCat3">Ciencia</button>
+    <button id="btnCat4">Deportes</button>
+    <button id="btnCat5">Tecnología</button>
+    <button id="btnCat6">Matemáticas</button>
+  </div>
+
+  <!-- Preguntas -->
+  <div id="preguntas"></div>
+  <button id="btnReiniciar" style="display:none;">Reiniciar</button>
+
+  <script src="funciones.js"></script>
+</body>
+</html>

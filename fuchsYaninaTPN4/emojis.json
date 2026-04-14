@@ -1,0 +1,22 @@
+[
+    { 
+        "nombre": "sonrisa",
+        "estado": "oculto",
+        "imagen": "😊"
+    },
+    { 
+        "nombre": "corazón",
+        "estado": "oculto",
+        "imagen": "❤️"
+    },
+    { 
+        "nombre": "pulgar_arriba",
+        "estado": "oculto",
+        "imagen": "👍"
+    },
+    { 
+        "nombre": "estrella",
+        "estado": "oculto",
+        "imagen": "⭐"
+    }
+]
